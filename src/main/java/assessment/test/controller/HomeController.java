@@ -23,12 +23,7 @@ public class HomeController {
 
     @RequestMapping(value = { "/", "/index", "/home" }, method = RequestMethod.GET)
     public String index(@ModelAttribute("appointmentDto") AppointmentDto appointment,Model model) {
-       System.out.println(appointmentService.getClass());
-//       Appointment app = new Appointment();
-//       app.setDescription("something 2");
-//       app.setAppointmenDate(new Date());
-//       app.setAppointmentTime(new Date());
-//       appointmentService.save(app);
+       model.addAttribute("msg", "Welcome!!!");
        return "home";
     }
     
