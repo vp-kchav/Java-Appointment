@@ -1,5 +1,5 @@
 /*
- * Created on Nov 17, 2017
+ * Created on Mar 17, 2018
  */
 package assessment.test.factory;
 
@@ -7,7 +7,6 @@ import java.util.Date;
 
 import assessment.test.domain.Appointment;
 import assessment.test.domain.AppointmentDto;
-
 
 
 public class AppointmentFactory {
